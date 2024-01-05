@@ -7,7 +7,7 @@ from modules.metrics import compute_scores
 from modules.optimizers import build_optimizer, build_lr_scheduler
 from modules.trainer import Trainer
 from modules.loss import compute_loss
-from models.r2gen import R2GenModel
+from models.models import R2GenModel
 
 
 def parse_agrs():
